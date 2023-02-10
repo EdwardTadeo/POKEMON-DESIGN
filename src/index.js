@@ -8,7 +8,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'))
 
 const theme = createTheme({
   typography: {
-    fontFamily: '"Arial Black"', fontSize: 20
+    fontFamily: '"Arial Black"', fontSize: 13
   },
   components: {
     MuiCssBaseline: {

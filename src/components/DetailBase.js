@@ -29,20 +29,20 @@ const DetailBase = ({ url, name, id, photo }) => {
         !loading && (
           <Box className={classes.container}>
             <Typography variant='h5'>{id}</Typography>
-            <Typography variant='h3'>{name}</Typography>
+            <Typography variant='h4'>{name}</Typography>
             <Divider />
-            <Label label='Experience' value={pokemon?.base_experience} />
-            <Label label='Weight' value={pokemon?.weight} />
+            <Label label='Experiencia' value={pokemon?.base_experience} />
+            <Label label='Peso' value={pokemon?.weight} />
             {
               pokemon?.types.map((type, index) => (
                 <Label
-                  key={`DetailBase-Type-${index}`}
-                  label={`Type ${type.slot}`}
+                  key={`DetailBase-Tipo-${index}`}
+                  label={`Tipo ${type.slot}`}
                   value={type.type.name} />
               ))
             }
-            <Label label='Order' value={pokemon?.order} />
-            <Label label='Height' value={pokemon?.height} />
+            <Label label='Orden' value={pokemon?.order} />
+            <Label label='Altura' value={pokemon?.height} />
           </Box>
         )
       }

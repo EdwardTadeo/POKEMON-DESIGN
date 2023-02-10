@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
               component="a"
               href="/"
             >
-              Mui-v5 (Demo)
+              Pokemóns-Descripción
             </Typography>
           </Toolbar>
         </Container>

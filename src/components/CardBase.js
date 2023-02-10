@@ -20,7 +20,7 @@ const CardBase = ({ title, description, photo, onClick }) => {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button onClick={onClick} size="small">Learn More</Button>
+        <Button onClick={onClick} size="small">Ver estadísticas</Button>
       </CardActions>
     </Card>
   )
